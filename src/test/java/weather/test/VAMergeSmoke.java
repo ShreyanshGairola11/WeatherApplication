@@ -48,6 +48,6 @@ public class VAMergeSmoke {
 
 	@AfterClass
 	public void stop_test_session() {
-		//test.closeBrowserSession();
+		test.closeBrowserSession();
 	}
 }
