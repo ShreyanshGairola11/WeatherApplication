@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="weather.test.VAMergeSmoke">
+        <methods>
+          <include name="Test03_Validate_Weather_Info_Difference"/>
+          <include name="start_test_Session"/>
+          <include name="stop_test_session"/>
+          <include name="Test02_Validate_Weather_Info"/>
+        </methods>
+      </class> <!-- weather.test.VAMergeSmoke -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

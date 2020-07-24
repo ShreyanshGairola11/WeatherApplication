@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 24 11:51:31 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>102 seconds (102361 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='weather.test.VAMergeSmoke.Test01_Launch_Application()'><b>Test01_Launch_Application</b><br>Test class: weather.test.VAMergeSmoke<br/>
+<a href="#Output-62739928" onClick='toggleBox("Output-62739928", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-62739928" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62739928">
+[INFO]: Page loaded completely<br/>
+[INFO]: HomePage is Opened<br/>
+</div>
+</td>
+<td></td>
+<td>82</td>
+<td>weather.test.VAMergeSmoke@5e2c3d18</td></tr>
+<tr>
+<td title='weather.test.VAMergeSmoke.Test02_Validate_Weather_Info()'><b>Test02_Validate_Weather_Info</b><br>Test class: weather.test.VAMergeSmoke<br/>
+<a href="#Output-101162229" onClick='toggleBox("Output-101162229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-101162229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-101162229">
+[INFO]: Page loaded completely<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>weather.test.VAMergeSmoke@5e2c3d18</td></tr>
+<tr>
+<td title='weather.test.VAMergeSmoke.Test03_Validate_Weather_Info_Difference()'><b>Test03_Validate_Weather_Info_Difference</b><br>Test class: weather.test.VAMergeSmoke<br/>
+<a href="#Output-761973299" onClick='toggleBox("Output-761973299", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-761973299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-761973299">
+[ASSERT FAIL]: Value is Not Equal<br/>
+[ASSERT FAIL]: Value is Not Equal<br/>
+[ASSERT FAIL]: Value is Not Equal<br/>
+[ASSERT FAIL]: Value is Not Equal<br/>
+[ASSERT PASS]: Value is Equal<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>weather.test.VAMergeSmoke@5e2c3d18</td></tr>
+</table><p>
+</body>
+</html>

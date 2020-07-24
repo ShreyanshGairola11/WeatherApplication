@@ -1,0 +1,13 @@
+#elementName:									locatorType:						locatorvalue
+#Object Definitions
+=======================================================================================================================================================
+header:											xpath:								//div[@class="ndtvlogo"]/a/img
+alert_Nothanks:									xpath:								//a[text()="No Thanks"]
+navbar_extend:									xpath:								//a[@class="topnavmore"]
+nav_weather:									xpath:								//div[@class="topnav_cont"]/a[text()="${text}"]
+input_search:									xpath:								//input[@class="searchBox"]
+checkbox_city:									xpath:								//label[@for="${city}"]/input
+city_temp:										xpath:								//div[@title="${city}"]/div/span[@class="tempRedText"]
+city_img:										xpath:								//div[@title="${city}"]/span/img
+generic_input:									xpath:								//input[@id="${city}"]
+=======================================================================================================================================================
